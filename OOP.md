@@ -23,6 +23,8 @@ A POO (Programação Orientada a Objetos) veio para resolver problemas que a PP 
  
  Vejamos especificamente os conceitos para ter maior entendimento deles.
   
+  ---
+  
 #### Encapsulamento
 
 O encapsulamento é uma forma de segurança para os atributos da classe e que permite com que alguns atributos sejam (ou não) modificados de formas diferentes.
@@ -33,6 +35,8 @@ Outra coisa que o encapsulamento proporciona é a localidade de variáveis. Deix
 Esse objeto deve possuir um valor int, dois valores string e um array. Esse objeto vai ser instanciado em diversos locais da aplicação, para garantirmos que ele sempre terá os valores que o banco 
 necessita para não dar um erro absurdo, podemos transformar os atributos em privados e fazer com que apenas um método, que faz diversas verificações, criar, ou não, o objeto e devolver um erro. Até mesmo colocar um status `no modifier` pode existir.
 
+---
+
 <a id="abstracao"></a>
 
 #### Abstração 
@@ -42,6 +46,8 @@ abstrair significa `observar (um ou mais elementos de um todo), avaliando caract
 é abstrair coisas do código. É literalmente pegar essas coisas, de preferência mais complexas ou com uma funcionalidade que pode ser utilizada por vários locais e
 colocar toda essa complexidade lá e passar apenas o resultado dessa coisa tão maluca.
 
+---
+
 #### Herança
 
 A herança é o principal conceito (se é possível o ter) da POO. Esse conceito é o que irá fazer com que haja impacto direto no número de linhas e onde que as coisas
@@ -49,11 +55,15 @@ de fato acontecem. Além de a herança permitir uma maior legibilidade do códig
 o que aquelas várias linhas fazem dentro de um código enorme. A possibilidade de reutilizar o código é saudável em diversos níveis, não impede a especialização de funções,
 levando em consideração o princípio de [Abstração](#abstracao) e além disso, permite com que existam maiores soluções de problema. Vide o fato de que várias pessoas estariam usando a mesma frase.
 
+---
+
 #### Polimorfismo
 
 Polimorfismo não é necessariamente um conceito da POO, mas a POO que usa o polimorfismo tão bem que tornou-se intrinseco o uso desse conceito a própria orientação a objtos.
 Este conceito nada mais é que utilizar o mesmo objeto de formas diferentes. Em uma situação com Interfaces é necessário trabalhar com diferentes requisições. Onde um 
 atributo define qual forma que a função tomará e/ou como ela agirá baseado no tipo de requisição. 
+
+---
 
 <a id="Procedimental"></a>
 

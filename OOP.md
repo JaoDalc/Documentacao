@@ -1,4 +1,4 @@
-### O que é a Programação Orientada a Objetos?
+## O que é a Programação Orientada a Objetos?
 
 A POO (Programação Orientada a Objetos) veio para resolver problemas que a PP (Programação Procedimental) tinha. Para ver em que forma se diferenciam, clique
  [aqui](#procedimental). Porém, o conceito em si da orientação a objetos é vasta e pode ser trazida para vários conceitos, seja ele empresarial ou familiar.
@@ -25,7 +25,7 @@ A POO (Programação Orientada a Objetos) veio para resolver problemas que a PP 
   
   ---
   
-#### Encapsulamento
+### **Encapsulamento**
 
 O encapsulamento é uma forma de segurança para os atributos da classe e que permite com que alguns atributos sejam (ou não) modificados de formas diferentes.
 Para certas informações, você não quer que qualquer um modifique, de qualquer jeito, o objeto. Coisas mais estruturais e que realmente podem causar problema não devem ser modificadas de qualquer forma.
@@ -39,7 +39,7 @@ necessita para não dar um erro absurdo, podemos transformar os atributos em pri
 
 <a id="abstracao"></a>
 
-#### Abstração 
+### **Abstração** 
 
 Abstrair uma parte do código é transformar essa parte do código em algo mais... abstrato. Assim como na língua portuguesa, 
 abstrair significa `observar (um ou mais elementos de um todo), avaliando características e propriedades em separado.`, essa descrição pode muito bem definir o que 
@@ -48,7 +48,7 @@ colocar toda essa complexidade lá e passar apenas o resultado dessa coisa tão 
 
 ---
 
-#### Herança
+### **Herança**
 
 A herança é o principal conceito (se é possível o ter) da POO. Esse conceito é o que irá fazer com que haja impacto direto no número de linhas e onde que as coisas
 de fato acontecem. Além de a herança permitir uma maior legibilidade do código, levando em consideração que ler uma linha chamando uma função que faz x, é mais fácil que entender
@@ -57,7 +57,7 @@ levando em consideração o princípio de [Abstração](#abstracao) e além diss
 
 ---
 
-#### Polimorfismo
+### **Polimorfismo**
 
 Polimorfismo não é necessariamente um conceito da POO, mas a POO que usa o polimorfismo tão bem que tornou-se intrinseco o uso desse conceito a própria orientação a objtos.
 Este conceito nada mais é que utilizar o mesmo objeto de formas diferentes. Em uma situação com Interfaces é necessário trabalhar com diferentes requisições. Onde um 
@@ -67,7 +67,7 @@ atributo define qual forma que a função tomará e/ou como ela agirá baseado n
 
 <a id="Procedimental"></a>
 
-### Qual sua diferença para a Programação Procedimental?
+### **Qual sua diferença para a Programação Procedimental?**
 
 A grande diferença entre a POO e a PP é o fato de a PP precisar alterar diversas funções pela falta de uma forma de centralizar as funções. Imaginemos esse código:
 

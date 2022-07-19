@@ -10,7 +10,7 @@ A POO (Programação Orientada a Objetos) veio para resolver problemas que a PP 
  checkout, uma forma de pagar pelo serviço realizado. Essa forma pode ser reaproveitada. Mesmo que diversos fatores mudem, seja o produto, os nomes que serão usados, os usuários, 
  forma de pagamento, tipo de impressão, etc; tudo isso pode ser feito de uma forma dinâmica e que possibilite que não precise ser criado o mesmo tipo de checkout em diversas aplicações.
  
- Assim também podemos pensar em funções. Funções ainda são muito mais utilizadas que partes ocmpletas de uma aplicação. Formas de salvar dados no banco de dados ou formas de extrair informações,
+ Assim também podemos pensar em funções. Funções ainda são muito mais utilizadas que partes completas de uma aplicação. Formas de salvar dados no banco de dados ou formas de extrair informações,
  tudo pode ser feito seguindo os conceitos de orientação a objetos. Claro, por vezes, é necessário copiar uma função quase perfeitamente igual outra pela praticidade e pelos prazos dados que são 
  curtos demais para realmente parar e reorganizar várias partes para seguir um padrão, porém, seguindo os conceitos mostrados mais a frente, é possível criar novas funções que todos possam usar. 
  Gerando facilidade, velocidade, e o mais importante, organização.
